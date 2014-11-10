@@ -3,6 +3,9 @@
 
 
   // en.wikipedia.org/wiki/File:Relative_Humidity.png
+  // Antalet gram  vatten per kg luft, m, som funktion av procent luftfuktighet, RH, och temperatur, T, grader celsius
+  // m = RH * 0,0407 * exp(T * 0,063)
+
 #define UINT  unsigned long    // 32-bit unsigned integer 0 <= UINT < 4294967296
 #define FLYTTAL  double        // den typ av flyttal som ska användas genom hela
 #define DHT22_PIN 6    // Pin kopplad till kommunikation med H&T-mätaren
